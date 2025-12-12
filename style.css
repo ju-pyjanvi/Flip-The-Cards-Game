@@ -24,7 +24,7 @@ h1 {
 #win-banner {
   display: none;
   font-family: Nabla;
-  font-size: 170px;
+  font-size: 150px;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -235,3 +235,4 @@ h1 {
   padding: 12px 25px;
   margin-top: 10px;      /* extra spacing */
 }
+
