@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flip the Cards Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Flip the Cards!</h1>
+  <div id="win-banner">🎉 VICTORY! 🎉</div>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Game Options</h2>
+      <button class="difficulty-btn" data-cols="2" data-rows="2">Easy</button>
+      <button class="difficulty-btn" data-cols="3" data-rows="4">Medium</button>
+      <button class="difficulty-btn selected" data-cols="4" data-rows="4">Hard</button>
+    </aside>
+
+    <main class="main">
+      <div class="controls">
+        <button id="reset-btn">Reset Game</button>
+        <span id="score">Moves: 0</span>
+      </div>
+
+      <div class="game-board"></div>
+
+      <div id="play-again" style="display: none;">
+        <button id="play-again-btn">PLAY AGAIN!</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
