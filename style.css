@@ -237,7 +237,13 @@ h1 {
 }
 
 
+
 html {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.scroll-container {
   scrollbar-width: none; 
   -ms-overflow-style: none; 
 }
@@ -246,6 +252,11 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
 
 
 
